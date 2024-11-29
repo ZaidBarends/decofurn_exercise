@@ -12,6 +12,6 @@ namespace decofurn_exercise
         public required string InvoiceNumber { get; set; } // Unique Invoice Number
         public DateTime? InvoiceDate { get; set; } // Date of the Invoice
         public string? Address { get; set; } // Address associated with the invoice
-        public double? InvoiceTotal { get; set; } // Total amount for the invoice
+        public double? InvoiceTotal { get; set; } // Total amount for the invoices
     }
 }
